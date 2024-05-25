@@ -1,11 +1,11 @@
 * {padding: 0; margin: 0;}
 html {height: 100%}
 body {height: 100%; background: gold;}
-header {height: 10%; background: #260F26;}
+header {height: 10%; background: #090809;}
 main{height: 80%; background: green;}
-footer{height: 10%; background: #260F26;}
-article {height: 100%; background: #86CB92; width: 60%; float:left;}
-aside {height: 100%; background: #71B48D; width: 40%; float: right;}
+footer{height: 10%; background: #090809;}
+article {height: 100%; background: #d3d3d3; width: 60%; float:left;}
+aside {height: 100%; background: #ffffff; width: 40%; float: right;}
 article {overflow-y: scroll;}
 article section {margin-bottom: 5%; padding-left: 2%;}
 article section h1 {margin-bottom: 3%;}
@@ -15,7 +15,7 @@ article section p {padding-left: 3%;}
 #logo img {max-height: 100%; max-width: 100%;}
 #topic1, #topic2, #topic3, footer
 {
-color: lightgray;
+color: red;
 box-sizing: border-box;
 padding-top: 2%;
 }
@@ -35,4 +35,4 @@ transition: opacity 500ms; vertical-align: middle;
 main:hover aside img {opacity: 1;}
 section img {max-height: 25%; max-width: 25%; margin-top: 1%;}
 header {font-size: 120%;}
-a {text-decoration: none; color: lightgray;}
+a {text-decoration: none; color: red;}
